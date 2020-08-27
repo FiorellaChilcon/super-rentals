@@ -4,7 +4,7 @@
   <LinkTo @route="about" class="button">About Us</LinkTo>
 </Jumbo>
 
-<div class="rentals">
+{{!-- <div class="rentals">
   <label>
     <span>Where would you like to stay?</span>
     <input class="light">
@@ -16,4 +16,6 @@
     </li>
     {{/each}}
   </ul>
-</div>
+</div> --}}
+
+<Rentals @rentals={{@model}} />
